@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="./nav.js" defer></script>
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="flex">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="logo image">
+    </div>
+
+    <nav>
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="visually-hidden">Menu</span>
+        <div class="menu-icon"></div>
+      </button>
+      <ul class="primary-navigation flex" id="primary-navigation" data-visible="false">
+        <li class="center-align">
+          <a href="#">Product</a>
+        </li>
+        <li class="center-align"> 
+          <a href="#">Features</a>
+        </li>
+        <li class="center-align">
+          <a href="#">Pricing</a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li class="center-align">
+          <button class="header-btn">Login</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="flex">
+    <div class="illustrations">
+      <img src="./images/illustration-devices.svg" alt="mobile phone and laptop illustrations">
+      <div class="bg-cylinder"></div>
+    </div>
+    <div class="cta flex">
+      <div class="cta-head flex">
+        <h2 class="cta-rounded-head">New</h2>
+        <h2>Monograph Dashboard</h2>
+      </div>
+
+      <h1>Powerful insights <br> into your team</h1>
+
+      <p>Project planning and time tracking for agile teams</p>
+
+      <div class="cta-bottom flex">
+        <button>Schedule a demo</button>
+        <h2>to see a preview</h2>
+      </div>
+    </div>
+  </main>
+  
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>
